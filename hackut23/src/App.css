@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family:sans-serif;
+  background-color: #FFD7E1;
 }
 
 .header {
@@ -12,18 +13,18 @@
 .mainContainer {
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  height: 10vh;
 }
 
 .titleContainer {
+  margin-top: 15px;
+  margin-left: 600px;
   display: flex;
-  flex-direction: column;
-  font-size: 64px;
+  font-size: 32px;
   font-weight: bolder;
-  align-items: center;
-  justify-content: center;
+  padding: 0;
+  background-color: pink;
+  color: white;
 }
 
 .resultContainer, .historyItem { 
@@ -44,10 +45,8 @@
 }
 
 .buttonContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 10px;
+  margin-left: 600px;
   height: 260px;
 }
 
@@ -70,4 +69,41 @@
   border-radius: 8px;
   border: 1px solid grey;
   padding-left: 8px;
+}
+
+.app__container {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+}
+
+.app__videoFeed {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.app__input {
+  margin-left: 175px;
+  height: 100px;
+  width: 500px;
+  display: flex;
+}
+
+.description {
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.title {
+  margin-left: 50px;
+}
+
+.photoButton {
+  border: none;
+  background-color: pink;
+  color: white;
+  font-size: 30px;
 }
