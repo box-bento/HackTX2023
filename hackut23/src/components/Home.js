@@ -21,7 +21,7 @@ const Home = (props) => {
             <h1 className="title">Don't Go Home Sad</h1>
         </div>
         <div className="description">
-            This is the home page.
+            Measure your employee satisfaction!
         </div>
         {/* <div className={"buttonContainer"}>
             <input

@@ -95,6 +95,9 @@
 .description {
   margin-top: 10px;
   margin-left: 600px;
+  color: white;
+  background-color: pink;
+  font-size: 30px;
 }
 
 .title {
@@ -106,4 +109,11 @@
   background-color: pink;
   color: white;
   font-size: 30px;
+}
+
+.photo {
+  margin-left: 800px;
+  margin-top: -50px;
+  display: flex;
+  position: absolute;
 }

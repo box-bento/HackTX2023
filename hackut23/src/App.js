@@ -57,7 +57,7 @@ function App() {
 	}, [videoRef])
 
 	const takePicture = () => {
-		let width = 500
+		let width = 200
 		let height = width / (16 / 9)
 
 		let photo = photoRef.current
@@ -120,8 +120,8 @@ function App() {
 			</div>
 			<div className="app__input">
 				<button className="photoButton" onClick={takePicture}>Take Picture</button>
-				<canvas id="photo" ref={photoRef}></canvas>
 			</div>
+			<canvas height="200" width="200 / (16/9)" id="photo" ref={photoRef}></canvas>
     </div>
   );
 }
